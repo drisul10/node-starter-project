@@ -1,0 +1,219 @@
+{
+    "dataSortType": {
+        "newest": {
+            "label": "Newest"
+        },
+        "oldest": {
+            "label": "Oldest"
+        },
+        "newestArray": {
+            "label": "Newest Array"
+        }
+    },
+    "appVersion": {
+        "_id": {
+            "label": "App Version ID"
+        },
+        "number": {
+            "label": "Version Number"
+        },
+        "outdatedNumber": {
+            "label": "Outdated Version Number"
+        },
+        "name": {
+            "label": "Version Name"
+        },
+        "kind": {
+            "label": "Version Kind"
+        },
+        "channelUpdate": {
+            "label": "Channel Update"
+        },
+        "linkUpdate": {
+            "label": "Link Update"
+        }
+    },
+    "metadata": {
+        "state": {
+            "label": "State"
+        },
+        "stateIsActive": {
+            "label": "State is Active"
+        },
+        "stateIsLocked": {
+            "label": "State is Locked"
+        },
+        "logs": {
+            "label": "Logs"
+        },
+        "logsCreate": {
+            "label": "Logs Create"
+        },
+        "logsCreateUserId": {
+            "label": "Logs Create User ID"
+        },
+        "logsCreateIsoDate": {
+            "label": "Logs Create ISO Date"
+        },
+        "logsUpdate": {
+            "label": "Logs Update"
+        },
+        "logsUpdateUserId": {
+            "label": "Logs Update User ID"
+        },
+        "logsUpdateIsoDate": {
+            "label": "Logs Update ISO Date"
+        },
+        "app": {
+            "label": "App"
+        },
+        "appV": {
+            "label": "App Version"
+        },
+        "appEnv": {
+            "label": "App Env"
+        },
+        "appVenv": {
+            "label": "App Env Variant"
+        }
+    },
+    "channelUpdateVersion": {
+        "playStore": {
+            "label": "Google Play Store"
+        },
+        "telegram": {
+            "label": "Telegram Channel"
+        }
+    },
+    "role": {
+        "developer": {
+            "label": "Developer"
+        }
+    },
+    "validate": {
+        "y": {
+            "label": "yes"
+        },
+        "n": {
+            "label": "no"
+        },
+        "isEmpty": {
+            "label": "cannot be empty"
+        },
+        "isNotValid": {
+            "label": "is not valid"
+        },
+        "isRequired": {
+            "label": "is required"
+        },
+        "min": {
+            "label": "minimum {min} character"
+        },
+        "max": {
+            "label": "maximum {max} character"
+        },
+        "minArray": {
+            "label": "minimum {min}"
+        },
+        "maxArray": {
+            "label": "maximum {max}"
+        },
+        "selectOption": {
+            "label": "select option"
+        }
+    },
+    "ok": {
+        "dbSave": {
+            "label": "Data saved"
+        },
+        "dbAdd": {
+            "label": "Data added"
+        },
+        "dbUpdate": {
+            "label": "Data updated"
+        },
+        "dbDeleteSoft": {
+            "label": "Data removed"
+        },
+        "dbFine": {
+            "label": "Data OK"
+        }
+    },
+    "error": {
+        "badRoleConfig": {
+            "label": "access denied due to invalid role validation configuration"
+        },
+        "badToken": {
+            "label": "access denied because token is invalid"
+        },
+        "unauthorized": {
+            "label": "access denied because not yet logged in"
+        },
+        "forbidden": {
+            "label": "access not allowed"
+        },
+        "fileExtNotAllowed": {
+            "label": "file extension not allowed"
+        },
+        "fileSizeTooBig": {
+            "label": "file size is too big"
+        },
+        "filePathUnknown": {
+            "label": "unknown storage directory"
+        },
+        "fileRequiredButNotSelected": {
+            "label": "file is required to upload, but no file uploaded"
+        },
+        "fileExistAndOverwriteNotPermitted": {
+            "label": "file already been uploaded and cannot be re-uploaded"
+        },
+        "fileExistAndSetToOverwrite": {
+            "label": "the file is already uploaded. If you continue, it will replace the existing one"
+        },
+        "fileOnRemoveFailUnlink": {
+            "label": "failed to delete the file in the system"
+        },
+        "fileOnRemoveNoCandidate": {
+            "label": "failed to delete the file in the system"
+        },
+        "dbFailOperation": {
+            "label": "database operation error occurred"
+        },
+        "dbFailAggregation": {
+            "label": "database operation error occurred"
+        },
+        "dbFailSave": {
+            "label": "failed to save data to the database"
+        },
+        "dbFailDelete": {
+            "label": "failed to delete data from the database"
+        },
+        "dbNoRecord": {
+            "label": "data not found in the database"
+        },
+        "dbDuplicateRecord": {
+            "label": "data duplicate in the database"
+        },
+        "dbLockedRecord": {
+            "label": "data locked from the database"
+        },
+        "dbImmutableRecord": {
+            "label": "cannot modify data from the database"
+        },
+        "dbFailSafeDelete": {
+            "label": "failed to delete data in database"
+        },
+        "dbFailHardDelete": {
+            "label": "failed to delete data in database"
+        },
+        "inputFailValidate": {
+            "label": "data entry does not match"
+        },
+        "inputUnsatisfied": {
+            "label": "input data is not valid"
+        },
+        "emailNotSent": {
+            "label": "email not sent"
+        }
+    }
+}

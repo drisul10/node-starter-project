@@ -1,0 +1,219 @@
+{
+    "dataSortType": {
+        "newest": {
+            "label": "Terbaru"
+        },
+        "oldest": {
+            "label": "Terlama"
+        },
+        "newestArray": {
+            "label": "Array Terbaru"
+        }
+    },
+    "appVersion": {
+        "_id": {
+            "label": "ID Versi Aplikasi"
+        },
+        "number": {
+            "label": "Nomor Versi"
+        },
+        "outdatedNumber": {
+            "label": "Nomor Versi Kadaluwarsa"
+        },
+        "name": {
+            "label": "Nama Versi"
+        },
+        "kind": {
+            "label": "Jenis Versi"
+        },
+        "channelUpdate": {
+            "label": "Kanal Perbarui"
+        },
+        "linkUpdate": {
+            "label": "Tautan Perbarui"
+        }
+    },
+    "metadata": {
+        "state": {
+            "label": "Status"
+        },
+        "stateIsActive": {
+            "label": "Status Aktif"
+        },
+        "stateIsLocked": {
+            "label": "Status Dikunci"
+        },
+        "logs": {
+            "label": "Logs"
+        },
+        "logsCreate": {
+            "label": "Logs Dibuat"
+        },
+        "logsCreateUserId": {
+            "label": "User ID Logs Dibuat"
+        },
+        "logsCreateIsoDate": {
+            "label": "Tanggal ISO Logs Dibuat"
+        },
+        "logsUpdate": {
+            "label": "Logs Diperbarui"
+        },
+        "logsUpdateUserId": {
+            "label": "User ID Logs Diperbarui"
+        },
+        "logsUpdateIsoDate": {
+            "label": "Tanggal ISO Logs Diperbarui"
+        },
+        "app": {
+            "label": "App"
+        },
+        "appV": {
+            "label": "Versi App"
+        },
+        "appEnv": {
+            "label": "Env App"
+        },
+        "appVenv": {
+            "label": "Varian Env App"
+        }
+    },
+    "channelUpdateVersion": {
+        "playStore": {
+            "label": "Google Play Store"
+        },
+        "telegram": {
+            "label": "Kanal Telegram"
+        }
+    },
+    "role": {
+        "developer": {
+            "label": "Pengembang Aplikasi"
+        }
+    },
+    "validate": {
+        "y": {
+            "label": "ya"
+        },
+        "n": {
+            "label": "tidak"
+        },
+        "isEmpty": {
+            "label": "tidak boleh kosong"
+        },
+        "isNotValid": {
+            "label": "tidak valid"
+        },
+        "isRequired": {
+            "label": "wajib diisi"
+        },
+        "min": {
+            "label": "minimal {min} karakter"
+        },
+        "max": {
+            "label": "maksimal {max} karakter"
+        },
+        "minArray": {
+            "label": "minimal {min}"
+        },
+        "maxArray": {
+            "label": "maksimal {max}"
+        },
+        "selectOption": {
+            "label": "pilih opsi"
+        }
+    },
+    "ok": {
+        "dbSave": {
+            "label": "Data berhasil disimpan"
+        },
+        "dbAdd": {
+            "label": "Data berhasil ditambahkan"
+        },
+        "dbUpdate": {
+            "label": "Data berhasil diperbarui"
+        },
+        "dbDeleteSoft": {
+            "label": "Data berhasil dihapus"
+        },
+        "dbFine": {
+            "label": "Data OK"
+        }
+    },
+    "error": {
+        "badRoleConfig": {
+            "label": "akses ditolak karena konfigurasi validasi role tidak valid"
+        },
+        "badToken": {
+            "label": "akses ditolak karena token tidak valid"
+        },
+        "unauthorized": {
+            "label": "akses ditolak karena belum login"
+        },
+        "forbidden": {
+            "label": "akses tidak diizinkan"
+        },
+        "fileExtNotAllowed": {
+            "label": "ekstensi berkas tidak diperbolehkan"
+        },
+        "fileSizeTooBig": {
+            "label": "ukuran berkas terlalu besar"
+        },
+        "filePathUnknown": {
+            "label": "direktori penyimpanan tidak diketahui"
+        },
+        "fileRequiredButNotSelected": {
+            "label": "berkas wajib diunggah, namun tidak ada berkas yang diunggah"
+        },
+        "fileExistAndOverwriteNotPermitted": {
+            "label": "berkas sudah pernah diunggah dan tidak boleh diunggah kembali"
+        },
+        "fileExistAndSetToOverwrite": {
+            "label": "berkas sudah pernah diunggah, jika dilanjutkan maka akan mengganti berkas lama dengan berkas baru"
+        },
+        "fileOnRemoveFailUnlink": {
+            "label": "gagal menghapus berkas di sistem"
+        },
+        "fileOnRemoveNoCandidate": {
+            "label": "gagal menghapus berkas di sistem"
+        },
+        "dbFailOperation": {
+            "label": "terjadi kesalahan operasi basisdata"
+        },
+        "dbFailAggregation": {
+            "label": "terjadi kesalahan operasi basisdata"
+        },
+        "dbFailSave": {
+            "label": "gagal menyimpan data ke basisdata"
+        },
+        "dbFailDelete": {
+            "label": "gagal menghapus data dari basisdata"
+        },
+        "dbNoRecord": {
+            "label": "data tidak ditemukan di basisdata"
+        },
+        "dbDuplicateRecord": {
+            "label": "duplikat data di basisdata"
+        },
+        "dbLockedRecord": {
+            "label": "data sedang dikunci dari basisdata"
+        },
+        "dbImmutableRecord": {
+            "label": "data tidak dapat diubah dari basisdata"
+        },
+        "dbFailSafeDelete": {
+            "label": "gagal menghapus data di basisdata"
+        },
+        "dbFailHardDelete": {
+            "label": "gagal menghapus data di basisdata"
+        },
+        "inputFailValidate": {
+            "label": "isian data tidak sesuai"
+        },
+        "inputUnsatisfied": {
+            "label": "isian data tidak sesuai"
+        },
+        "emailNotSent": {
+            "label": "email tidak terkirim"
+        }
+    }
+}

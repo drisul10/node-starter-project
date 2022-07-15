@@ -1,0 +1,23 @@
+stages:
+  - deploy
+
+image: node:latest-alpine
+
+variables:
+  GIT_CLONE_PATH: "/home/gitlab-runner/builds/node-starter-project"
+  GIT_CLEAN_FLAGS: -x -f -e userfiles/** -e .env
+
+cache:
+  paths:
+    - node_modules/
+
+production:
+  tags:
+    - node-starter-project
+  stage: deploy
+  script:
+    - npm install
+    - PM2_HOME=/etc/pm2daemon pm2 delete -s node-starter-project || ':'
+    - PM2_HOME=/etc/pm2daemon pm2 start app.js --name="node-starter-project"
+  only:
+    - master
